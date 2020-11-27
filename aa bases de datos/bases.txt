@@ -1,0 +1,4 @@
+curso_php_avanzado.sql es la base de datos
+clases.sql es la tabla de la unidad 1
+
+consultas.sql es la tabla de la unidad 5.

@@ -1,0 +1,213 @@
+/*generales para todo*/
+ul{
+    list-style-type: none;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/*pestaña ver clases*/
+.input, .boton{
+    width: 200px;
+    height: 40px;
+    margin: 5px;
+    color: blue;
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+.boton{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    display: block;
+    border: 1px solid;
+}
+.boton:hover{
+    background-color: white;
+    color: blue;
+}
+.table{
+    width: 300px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 2px;
+    grid-auto-rows: minmax(30px, auto);
+    border: 1px solid black;
+    text-transform: capitalize;
+}
+.fechas{
+    background-color: dimgrey;
+    color: white;
+}
+.clases{
+    background-color: dimgrey;
+    color: white;
+}
+
+/* fin de pestaña ver clases*/
+
+/*pestaña comentarios*/
+textarea{
+    color: blue;
+    border-radius: 10px;
+    width: 200px;
+    margin: 5px;
+}
+/*fin de pestaña comentarios*/
+
+
+/*pestaña clases y objetos*/
+#usuarios{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/**/
+
+.container {
+  width:1080px;
+  margin:0px auto;
+  font-size:1em;
+  font-family: "Arial", Georgia, Serif;
+  font-size: 15px;
+}
+header{
+  text-align:center;
+  border: 1px solid #666;
+  background: #cccccc;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+section,aside {
+  margin-top: 5px;
+  padding: 10px;
+  -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+}
+section {
+    float: left;
+    width: 70%;
+    background: #d5d9e3;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    overflow: scroll;
+}
+aside {
+  float: right;
+  width: 25%;
+  background:#ccc;
+  color: #333;
+}
+nav {
+  padding:0.2%;
+  background:#f06156;
+  margin-top: 0.5%;
+}
+nav ul {
+  list-style-type:none;
+  padding:0px;
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li:hover {
+  background-color: #ccc;
+  text-decoration: underline;
+}
+nav ul li a {
+ display:inline-block;
+ text-align:center;
+ text-decoration:none;
+ color: #75302a;
+ font-weight: bold;
+  padding:6px 15px;
+  margin:2px;
+  background:#fafafa;
+  -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+}
+footer {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px 0px 10px 0px;
+  background-color: #333;
+  text-align: center;
+}
+footer a {
+  color: #fff;
+}
+
+h2 {
+  color: #f06156;
+}
+
+.h3imagenes{
+    background-color: grey;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+}
+/* pantalla maximo 980px */
+@media screen and (max-width:980px) {
+  .container {
+    width:98%;
+  }
+  section {
+    width:68%;
+  }
+}
+ 
+/* pantalla maximo 700px */
+@media screen and (max-width:700px) {
+  aside,section {
+    float:none;
+    width:96%;
+    font-size:1.2em;
+  }
+  nav, section {
+    font-size:1.2em;
+  }
+  aside {
+    margin-top:5px;
+    background:#333;
+    color: #fff;
+  }
+  nav ul {
+    float:none;
+    clear:both;
+  }
+}
+ 
+ 
+/* pantalla maximo 480px */
+@media screen and (max-width:480px) {
+  aside {
+    display:block;
+    background:#333;
+    color: #fff;
+    font-size:1.5em;
+  }
+  nav, section {
+    font-size:1.5em;
+  }
+  section {
+    width:94%;
+  }
+  nav ul {
+    display: table;
+    text-align: center;
+    float: none;
+    width:100%;
+  }
+  nav ul li {
+    float:none;
+  }
+}

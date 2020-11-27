@@ -1,0 +1,4 @@
+El formulario calculador de fecha esta en el arhivo unidad2.php
+el script que hace el calculo (calcular_fecha.php) esta dentro de functions, ya que es puro php.
+
+le agregue una validacion para que no se puedan poner dias anteriores al dia de le fecha actual, para que no de numero negativo.

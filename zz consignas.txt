@@ -1,0 +1,16 @@
+Consignas:
+
+Crear una tabla llamada "clases" con los siguientes datos:
+id_clase INT(5) Clave primaria, autoincrementable listo
+unidad VARCHAR (30) listo
+fecha DATE listo
+Abrir el archivo unidad1.php
+Desarrollar 2 archivos:
+insertar_clases.php listo
+ver_clases.php listo
+En el archivo insertar_clases.php
+Recibir los datos del del formulario listo
+Conectar con la base de datos e insertar los datos recibidos en la tabla "clases" listo
+Redireccionar a ver_clases.php listo
+En el archivo ver_clases.php listo
+Mostrar el contenido de la tabla "clases" listo
